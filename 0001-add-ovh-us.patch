@@ -1,0 +1,24 @@
+From 309eadeafc5fb85abc88c0e632980f776a3ab0f2 Mon Sep 17 00:00:00 2001
+From: root <root@knode01.cluster.local>
+Date: Thu, 27 Aug 2020 09:38:42 +0000
+Subject: [PATCH] add ovh-us
+
+---
+ client.py | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/client.py b/client.py
+index 68e08c0..7fae0a6 100644
+--- a/client.py
++++ b/client.py
+@@ -69,6 +69,7 @@ from .exceptions import (
+ ENDPOINTS = {
+     'ovh-eu': 'https://eu.api.ovh.com/1.0',
+     'ovh-ca': 'https://ca.api.ovh.com/1.0',
++    'ovh-us': 'https://api.us.ovhcloud.com/1.0',
+     'kimsufi-eu': 'https://eu.api.kimsufi.com/1.0',
+     'kimsufi-ca': 'https://ca.api.kimsufi.com/1.0',
+     'soyoustart-eu': 'https://eu.api.soyoustart.com/1.0',
+-- 
+2.17.1
+
